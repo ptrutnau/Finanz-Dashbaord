@@ -7,7 +7,7 @@ import plotly.express as px
 # =====================
 @st.cache_data
 def load_data():
-    df = pd.read_csv(df = pd.read_csv("finance_economics_dataset.csv", parse_dates=["Date"])
+    df = pd.read_csv("finance_economics_dataset.csv", parse_dates=["Date"])
     return df
 
 df = load_data()
@@ -78,5 +78,6 @@ else:
 st.markdown("---")
 st.caption("Datenquelle: [Finance and Economics Dataset (2000-Present)](https://www.kaggle.com/datasets/khushikyad001/finance-and-economics-dataset-2000-present) von Khushi")
 st.caption("💡 Tipp: Du kannst dieses Dashboard später mit Streamlit Cloud teilen!")
+
 
 
